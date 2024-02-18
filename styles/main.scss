@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Alliance;
+  src: url(../fonts/Alliance-No2-Regular.otf);
+}
+
+@font-face {
+  font-family: Alliance-Mono;
+  src: url(../fonts/Alliance-Mono.otf);
+}
+
+@font-face {
+  font-family: Alliance-PlattSemiBold;
+  src: url(../fonts/Alliance-PlattSemiBold.otf);
+}
+
+@font-face {
+  font-family: Alliance-No2-Regular;
+  src: url(../fonts/Alliance-No2-Regular.otf);
+}
+
+
+@font-face {
+  font-family: 'Manrope';
+  src: url(../fonts/Manrope-VariableFont_wght.ttf);
+  font-weight: 200 800;
+}
+
+@font-face {
+  font-family: Space Grotesk;
+  src: url(../fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+input[type="password"] {
+  font-family: Verdana;
+}
+
+:root {
+  --pageWidth: 1280px;
+  --pageHeight: 800px;
+
+  /* Primary Colors */
+
+  
+
+  --primary-100: #CCFFF6;
+  --primary-200: #99FFEC;
+  --primary-400: #33FFDA;
+  --primary-500: #00EFC3;
+
+  --basegrey-50: #F2F2F2;
+  --basegrey-200: #CCCCCC;
+  --basegrey-400: #999999;
+  --basegrey-500: #0D0D0D;
+  --basegrey-600: #666666;
+  --basegrey-700: #4D4D4D;
+  --basegrey-800: #333333;
+  --basegrey-900: #1A1A1A;
+  --basegrey-950: #0D0D0D;
+
+  --coldgrey-50: #F1F1F4;
+  --coldgrey-400: #8D93A5;
+  --coldgrey-900: #16181D;
+
+  --white: #FFFFFF;
+
+  --danger-200: #F6A2A5;
+  --danger-400: #EC464B;
+  --danger-500: #E92329;
+
+  /*AccountSettingPanel*/
+  --FormHeight: 760px;
+  --FormWidth: 844px;
+  --LeftPanelWidth: 283px;
+  --RightPanelWidth: 560px;
+  
+}
+
+html {
+  width: 100%;  
+  height: 100%;
+  min-width: 200px;
+  background-color: #2d2c2d;
+}
+
+body {
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Alliance-PlattSemiBold, Alliance-No2-Regular, Helvetica, sans-serif;
+  overflow: hidden;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff1a;
+  border-radius: 4px;
+}
+
+
+input[type="password"] {
+  font-family: Verdana, Manrope; // Sets the font-family for all password inputs to Verdana
+}
+
+.closeButton {
+  margin-left: auto;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.closeButton:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.closeButton:hover {
+  filter: brightness(0) invert(1);
+}
